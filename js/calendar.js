@@ -83,7 +83,7 @@ function printCalendar()
     if((i % 7) == 0){
       document.write("</TR><TR>");
     }
-    if((i - firstDay + 2) == day){
+    if((i - firstDay + 2) == date){
       color = "#a5c422";
     }
     else{
