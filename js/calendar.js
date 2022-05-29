@@ -69,18 +69,18 @@ function printCalendar() {
   }
 
   document.write("<TABLE border = 1><TR>");
-  document.write("<TD bgcolor='#ff7e00' align='center' colspan='7'>");
+  document.write("<TD bgcolor='#1db4e5' align='center' colspan='7'>");
   document.write(monthName + " " + year);
   document.write("</TD></TR><TR>");
 
   document.write("<TR>");
-  document.write("<TD align='center' bgcolor='pink'>Mo</TD>");
-  document.write("<TD align='center' bgcolor='pink'>Tu</TD>");
-  document.write("<TD align='center' bgcolor='pink'>We</TD>");
-  document.write("<TD align='center' bgcolor='pink'>Th</TD>");
-  document.write("<TD align='center' bgcolor='pink'>Fr</TD>");
-  document.write("<TD align='center' bgcolor='pink'>Sa</TD>");
-  document.write("<TD align='center' bgcolor='pink'>Su</TD>");
+  document.write("<TD align='center' bgcolor='lightblue'>Mo</TD>");
+  document.write("<TD align='center' bgcolor='lightblue'>Tu</TD>");
+  document.write("<TD align='center' bgcolor='lightblue'>We</TD>");
+  document.write("<TD align='center' bgcolor='lightblue'>Th</TD>");
+  document.write("<TD align='center' bgcolor='lightblue'>Fr</TD>");
+  document.write("<TD align='center' bgcolor='lightblue'>Sa</TD>");
+  document.write("<TD align='center' bgcolor='lightblue'>Su</TD>");
   document.write("</TR>");
 
   var j = noOfDays + firstDay - 1;
@@ -94,7 +94,7 @@ function printCalendar() {
       document.write("</TR><TR>");
     }
     if (i - firstDay + 2 == date) {
-      color = "#ff7e00";
+      color = "#1db4e5";
     } else {
       color = "#f9f9f9";
     }
